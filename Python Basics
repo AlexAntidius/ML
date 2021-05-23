@@ -1,0 +1,6 @@
+#Volume of Sphere
+diameter = int(input("Enter the diameter: "))
+diameter = diameter/2
+# volume = (4/3)*3.14*diameter*diameter*diameter
+volume of a sphere = (4/3)*3.14*diameter**3
+print(volume)
