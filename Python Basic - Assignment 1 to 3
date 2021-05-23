@@ -1,0 +1,18 @@
+#Find numbers divisble between 2000 to 3200
+answer = []
+for i in range(2000,3201) :
+    if i % 7 == 0 and i % 5 ==0:
+        answer.append(i)
+print(answer)
+
+#Print name in reverse with space
+first_name = str(input("Enter First name: "))
+last_name = str(input("Enter Last name: "))
+print(last_name, first_name)
+
+#Volume of Sphere
+diameter = int(input("Enter the diameter: "))
+diameter = diameter/2
+# volume = (4/3)*3.14*diameter*diameter*diameter
+volume of a sphere = (4/3)*3.14*diameter**3
+print(volume)
